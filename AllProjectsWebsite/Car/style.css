@@ -1,0 +1,95 @@
+.type1{
+    font-size: 65px;
+    font-family: monotype corsiva;
+    font-weight: bold;
+color: red;
+padding-left: 330px;
+}
+
+.type2{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 550px;
+    background-color: blue;
+    height: 30px;
+
+}
+
+.car{
+    border: 7px dashed red;
+    padding: 20px 20px 20px 20px;
+}
+
+.type3{
+    padding-left: 12px;
+}
+
+.type4{
+    background-color: black;
+}
+
+.type5{
+    border: 5px solid orangered;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+}
+
+.type6{
+    border: 5px solid orangered;
+    height: 350px;
+    padding: 10px 10px 10px 14px;
+
+}
+
+button{
+    background-color: #ff8f0f;
+    color: yellow;
+    font-weight: bold;
+}
+
+.type7{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: red;
+    padding-left: 400px;
+ text-decoration: underline;
+
+}
+
+.type8{
+padding-left: 580px;
+text-decoration: underline;
+}
+
+.type9{
+    padding-left: 400px;
+    font-weight: bold;
+
+}
+
+.type10{
+    font-weight: bold;
+    padding-left: 400px;
+}
+
+.type11{
+    padding-left: 400px;
+    font-weight: bold;
+}
+
+.type12{
+    text-align: center;
+    font-weight: bold;
+}
+
+.type13{
+    padding-left: 630px;
+}
+
+.type14{
+    border: 6px dashed red;
+    height: 390px;
+    background-color: yellow;
+}

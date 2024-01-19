@@ -1,0 +1,490 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#menu{
+    display: none;
+}
+
+@media (max-width: 992px)
+{
+    #desktop_menu{
+        display: none;
+    }
+
+    .slicknav_menu{
+        display: block;
+    }
+}
+
+@media (min-width: 992px)
+{
+    #desktop_menu{
+        display: block;
+    }
+
+    .slicknav_menu{
+        display: none;
+    }
+}
+
+.navbar {
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 0.2rem;
+    box-shadow: 0px 0px 10px #ccc;    
+}
+
+.brand_name {
+ padding-left: 30px;
+ color: blue;
+ font-weight: bold;
+ font-size: 25px;
+ position: absolute;
+ top: 0;
+ left: 0; 
+ margin-top: 21px;
+ 
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'ubuntu',sans-serif;
+}
+
+.navbar a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.projects{
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.OC1{
+    text-align: center;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one,.two,.three,.four{
+    height: 325px;
+    width: 320px;
+    box-shadow: 0px 0px 12px #ccc;
+    border-bottom: 5px solid blue;
+    border-radius: 0.45rem;
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+.one:hover,.two:hover,.three:hover,.four:hover{
+   transform: scale(1.055);
+   box-shadow: 0px 0px 8px gold;
+}
+
+.icon_box{
+    height: 105px;
+    width: 105px;
+    background-color: #CBE2EC;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31%;
+    margin-top: 15%;
+
+}
+
+.materialdesignicons{
+    font-size: 70px;
+    color: #1E9DE3;
+}
+
+.about_head{
+    font-family: 'ubuntu',sans-serif;
+    padding-left: 80px;
+}
+
+#box2{
+    width: 100%;
+    height: 400px;
+}
+
+#left-box{
+    width: 50%;
+    float: left;
+    padding-left: 80px;
+}
+
+#right-box{
+    width: 50%;
+    float: right;
+    padding-top: 24px;
+}
+
+#right-box h1{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: orangered;
+}
+
+.html{
+    padding: 17px;
+}
+
+.html label{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.progress_box{
+    width: 100%;
+    height: 19px;
+    background-color: #ddd;
+}
+
+.progress_bar{
+    width: 0%;
+    background-color: #47BF14;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.css{
+    padding: 17px;
+}
+
+.css label{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.progress_box1{
+    width: 100%;
+    height: 19px;
+    background-color: #ddd;
+}
+
+.progress_bar1{
+    width: 0%;
+    background-color: orangered;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.js{
+    padding: 17px;
+}
+
+.js label{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.progress_box2{
+    width: 100%;
+    height: 19px;
+    background-color: #ddd;
+}
+
+.progress_bar2{
+    width: 0%;
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.jquery{
+    padding: 17px;
+}
+
+.jquery label{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.progress_box3{
+    width: 100%;
+    height: 19px;
+    background-color: #ddd;
+}
+
+.progress_bar3{
+    width: 0%;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px)
+{    
+.about{
+    display:grid;
+}
+
+.one,.two,.three,.four{
+   margin: 18px;
+}
+
+#box2{
+    height: 760px;
+    display: grid;
+}
+
+#right-box{
+    margin-left: 20px;
+}
+
+.PeopleReaction{
+    display: grid;
+}
+
+}
+
+@media (max-width: 425)
+{    
+.about{
+    display: grid;
+}
+
+.one,.two,.three,.four{
+   margin: 18px;
+   margin-left: 10px;
+
+}
+}
+
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.one1,.two2,.three3,.four4,.five5,.six6,.seven7{
+    height: 255px;
+    width: 250px;
+    box-shadow: 0px 0px 12px #ccc;
+    border-bottom: 5px solid blue;
+    border-radius: 0.45rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.one1:hover,.two2:hover,.three3:hover,.four4:hover,.five5:hover,.six6:hover,.seven7:hover{
+   transform: scale(1.055);
+}
+
+.one1{
+    background-image: url("../AllProjectsWebsiteScreenshot/BugattiWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.two2{
+    background-image: url("../AllProjectsWebsiteScreenshot/LogInWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.three3{
+    background-image: url("../AllProjectsWebsiteScreenshot/PageViewverWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.four4{
+    background-image: url("../AllProjectsWebsiteScreenshot/RealWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.five5{
+    background-image: url("../AllProjectsWebsiteScreenshot/SpotifyCloneWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.six6{
+    background-image: url("../AllProjectsWebsiteScreenshot/TradingPropWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.seven7{
+    background-image: url("../AllProjectsWebsiteScreenshot/VideoPlayerWebsite.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.innertext{
+    margin-top: 105%;
+    margin-left: 70px;
+}
+
+.PeopleReaction{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.person1,.person2,.person3,.person4{
+    height: 280px;
+    width: 340px;
+    box-shadow: 0px 0px 8px #ccc;
+    border-bottom: 5px solid blue;
+    border-radius: 0.45rem; 
+    transition-duration: 0.85s;
+}
+
+.person1:hover,.person2:hover,.person3:hover,.person4:hover{
+transform: scale(1.088);
+border-bottom: 5px solid orangered;
+border-top: 5px solid orangered;
+}
+
+.img:hover,.img2:hover,.img3:hover,.img4:hover{
+    border: 2px solid black;
+}
+
+.upperbox{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lowerbox{
+    width: 100%;
+    height: 160px;
+}
+
+.img{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background-image: url("../images/vishal.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.img2{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background-image: url("../images/atface.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img3{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background-image: url("../images/aditya.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+.img4{
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    background-image: url("../images/modelgirl.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.name{
+    height: 118px;
+    width: 190px;
+    font-size: 29px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    padding-top: 9%;
+}
+
+.Small{
+    font-size: 15px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    margin-top: 1%;
+    color: gray;
+}
+
+.written{
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    color: grey;    
+}
+
+
+/*End Box Footer*/
+
+.end_box{
+    width: 100%;
+    height: 300px;
+    background-color: #323232;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts h1{
+    color: white;
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 800px;
+}
+
+.contacts h3{
+    color: white;
+    font-family: 'ubuntu',sans-serif;
+}
+
+.others{
+    color: white;
+}
+
+#whatapp{
+    font-size: 40px;
+    color: #25d366;
+}
+
+#linkdln{
+    font-size: 40px;
+    color: #0077B5;
+}
+
+
+

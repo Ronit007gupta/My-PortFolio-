@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Plugin  PART 1 to 10</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.skitter.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skitter.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+    <!--Material Design Icon CDN  Use as A "WEBFONT"-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css
+    ">
+
+    <!--Google Font CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    
+</head>
+<body style="font-family: 'ubuntu',sans-serif;">
+
+  <!--Slicknav Plugin For Navbar-->
+    <ul id="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+
+    
+    <div id="desktop_menu">
+        <div class="navbar">
+            <a href="#footer">Contact</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#home">Home</a>
+            </div>
+            <p class="brand_name">RONIT GUPTA</p>
+        </div>
+
+
+<!-- Skitter Plugin For SlideShow of Images -->
+
+<div class="skitter skitter-large sizing">
+  <ul>
+    <li>
+      <a href="#block"><img src="images/three.png" class="block" /></a>
+      <div class="label_text"><p style="font-weight: bold;font-family: 'ubuntu',sans-serif;font-size: 20px;">RG Creation Studio</p></div>
+    </li>
+    <li>
+      <a href="#blindWidth"><img src="images/nine.png" class="blindWidth" /></a>
+      <div class="label_text"><p style="font-weight: bold;font-family: 'ubuntu',sans-serif;font-size: 20px;">RG Creation Studio</p></div>
+    </li>
+    <li>
+      <a href="#horizontal"><img src="images/two.png" class="horizontal" /></a>
+      <div class="label_text"><p style="font-weight: bold;font-family: 'ubuntu',sans-serif;font-size: 20px;">RG Creation Studio</p></div>
+    </li>
+  </ul>
+</div>
+
+<br><br>
+
+<h1 class="OC1">ABOUT</h1>
+
+<br><br>
+
+<div class="about">
+
+  <div class="one">
+    <div class="icon_box"><span class="mdi mdi-speedometer materialdesignicons"></span></div>
+    <h2 class="about_head" style="padding-left: 123px;">FAST</h2>
+    <p style="font-size: 16px;font-family: 'ubuntu',sans-serif;color: gray;font-weight: bold;padding-left: 40px; padding-right: 40px;">Fast Loads times and Lag free Interactions. My Highest Priority.</p>
+  </div>
+
+  <div class="two">
+    <div class="icon_box"><span class="mdi mdi-responsive materialdesignicons"></span></div>
+    <h2 class="about_head" style="padding-left: 85px;">  RESPONSIVE</h2>
+    <p style="font-size: 16px;font-family: 'ubuntu',sans-serif;color: gray;font-weight: bold;padding-left: 30px;padding-right: 30px;">My Layout Designs will work on any &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Device , Big and Small.</p>
+    <p style="font-size: 16px;font-family: 'ubuntu',sans-serif;color: gray;font-weight: bold;padding-left: 50px;"></p>
+  </div>
+
+  <div class="three">
+    <div class="icon_box"><span class="mdi mdi-monitor-dashboard materialdesignicons"></span></div>
+    <h2 class="about_head">BEST UI & UX</h2>
+    <p style="font-size: 16px;font-family: 'ubuntu',sans-serif;color: gray;font-weight: bold;padding-left: 50px;">My Website have best Users-Interface & Users-Experience.</p>
+  </div>
+  
+  <div class="four">
+    <div class="icon_box"><span class="mdi mdi-wrench materialdesignicons"></span></div>
+    <h2 class="about_head" style="padding-left: 100px;">DYNAMIC</h2>
+    <p style="font-size: 16px;font-family: 'ubuntu',sans-serif;color: gray;font-weight: bold;padding-left: 50px; padding-right: 20px;">Our Clients manage our Websites &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Easily.</p>
+  </div>
+</div>
+
+<br><br>
+<br><br>
+
+<div id="box2">
+
+  <div id="left-box">
+   <div class="img" style="border-radius: 0.55rem;margin-top: 18px;"> 
+    <img src="images/Ronit Gupta 225.jpg" height="370px" width="600px" style="border-radius: 0.55rem;" alt="">
+    </div>
+  </div>
+
+  <div id="right-box">
+    <h1>MY SKILLS</h1>
+
+    <div class="html">
+      <label>  HTML (Hyper Text Markup Language)</label>
+      <div class="progress_box">
+        <div class="progress_bar"> 95 %</div>
+      </div>
+    </div>
+
+    <div class="css">
+      <label>  CSS (Cascading Style Sheet)</label>
+      <div class="progress_box1">
+        <div class="progress_bar1"> 91 %</div>
+      </div>
+    </div>
+
+    <div class="js">
+      <label>  Javascript (JS)</label>
+      <div class="progress_box2">
+        <div class="progress_bar2"> 88 %</div>
+      </div>
+    </div>
+
+    <div class="jquery">
+      <label>  jQuery</label>
+      <div class="progress_box3">
+        <div class="progress_bar3"> 96 %</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<br><br>
+<br><br>
+
+<!-- What People Say About This-->
+
+<h1 style="font-family: 'ubuntu',sans-serif;font-weight: bold;text-align: center;">What People Say</h1>
+
+<br><br>
+
+<div class="PeopleReaction">
+
+  <div class="person1">
+
+    <div class="upperbox">
+      <div class="img"></div>
+      <div class="name">Vishal Gupta
+        <p class="Small">Regular Client</p>
+      </div>
+    </div>
+
+    <div class="lowerbox">
+      <p class="written">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae excepturi fugit dolorem, labore corporis officia iure consequuntur quos hic similique modi, est voluptatem. Necessitatibus, ipsam? Nostrum libero corrupti iure accusamus.
+        </p>
+    </div> 
+
+  </div>
+
+
+  <div class="person2">
+    
+    <div class="upperbox">
+      <div class="img2"></div>
+      <div class="name">Andrew Tate
+        <p class="Small">Regular Client</p>
+      </div>
+    </div>
+
+    <div class="lowerbox">
+      <p class="written">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae excepturi fugit dolorem, labore corporis officia iure consequuntur quos hic similique modi, est voluptatem. Necessitatibus, ipsam? Nostrum libero corrupti iure accusamus.
+        </p>
+    </div> 
+    
+  </div>
+
+  <div class="person3">
+
+    <div class="upperbox">
+      <div class="img3"></div>
+      <div class="name">Aditya Balotra
+        <p class="Small">Regular Client</p>
+      </div>
+    </div>
+
+    <div class="lowerbox">
+      <p class="written">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae excepturi fugit dolorem, labore corporis officia iure consequuntur quos hic similique modi, est voluptatem. Necessitatibus, ipsam? Nostrum libero corrupti iure accusamus.
+        </p>
+    </div> 
+    
+  </div>
+  
+  <div class="person4">
+   
+    <div class="upperbox">
+      <div class="img4"></div>
+      <div class="name">Laura Paul
+        <p class="Small">Regular Client</p>
+      </div>
+    </div>
+
+    <div class="lowerbox">
+      <p class="written">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae excepturi fugit dolorem, labore corporis officia iure consequuntur quos hic similique modi, est voluptatem. Necessitatibus, ipsam? Nostrum libero corrupti iure accusamus.
+        </p>
+    </div> 
+    
+  </div>
+
+</div>
+
+<br><br>
+<br><br>
+
+<h1 class="OC1">MY PROJECTS</h1>
+<!-- Owl Carousel Plugin For SlideShow of Images -->
+<br>
+
+<div class="owl-carousel  projects">
+  <div><img src="images/one.png" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div>
+  <div><img src="images/two.png" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div>
+  <div><img src="images/three.png" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div> 
+  <div> <img src="images/four.png" height="120px" width="120px" style="border-radius: 0.5rem;" alt=""> </div>
+  <div><img src="images/five.jpeg" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div>
+  <div><img src="images/six.jpeg" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div>
+  <div><img src="images/seven.jpeg" height="120px" width="120px" style="border-radius: 0.5rem;" alt="">  </div> 
+  <div> <img src="images/eight.jpeg" height="120px" width="120px" style="border-radius: 0.5rem;" alt=""> </div>
+  <div> <img src="images/nine.png" height="120px" width="120px" style="border-radius: 0.5rem;" alt=""> </div>
+  <div> <img src="images/ten.jpeg" height="120px" width="120px" style="border-radius: 0.5rem;" alt=""> </div>
+ 
+</div>
+
+<br><br><br>
+
+<!--Projects Highlight-->
+
+<div class="about">
+
+  <div class="one1">
+   <h3 class="innertext">Bugatti.com</h3>
+  </div>
+
+  <div class="two2">
+    <h3 class="innertext">LogIn Page</h3>
+  </div>
+
+  <div class="three3">
+    <h3 class="innertext">Page Viewver</h3>
+  </div>
+  
+  <div class="four4">
+    <h3 class="innertext">RealWorld.com</h3>
+  </div>
+
+</div>
+
+<br><br><br><br>
+
+<div class="about">
+  
+  <div class="five5">
+      <h3 class="innertext">Spotify.com</h3>
+  </div>
+
+  <div class="six6">
+      <h3 class="innertext">Express Prop Firm.com</h3>
+  </div>
+
+  <div class="seven7">
+      <h3 class="innertext">Video Player Application</h3>
+  </div>
+</div>
+
+<br><br><br>
+<br><br><br>
+
+<footer id="footer">
+  <div class="end_box">
+
+    <div class="contacts">
+      <h1>Contact Us</h1>
+      <br><br>
+      <h3>Ph No. : 9654379465</h3>
+      <br><br>
+      <h3>Email Id : Ronitgupta520@gmail.com</h3>
+      <br><br>
+      <h3>Address : Jahangir Puri , Delhi - 110033</h3>
+    </div>
+
+    <div class="others">
+      <div class="inline" style="display: flex;">
+      <span class="mdi mdi-whatsapp animate__animated animate__heartBeat animate__infinite" id="whatapp"></span>
+      &nbsp;&nbsp;
+      <h1>Whats'app Me</h1>
+    </div>
+
+    <br>
+
+    <h2 style="text-align: center;">OR</h2>
+
+    <br>
+
+    <h2 style="padding-left: 60px;">Follow Me On</h2>
+
+    <br>
+
+    <div class="inline" style="display: flex;">
+    <span class="mdi mdi-linkedin animate__animated animate__heartBeat animate__infinite" id="linkdln"></span>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+      <h1 style="margin-top: 5px;">RGlinked.in</h1>
+  </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
